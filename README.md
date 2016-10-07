@@ -1,4 +1,11 @@
-# lulz
+# lulz 0.0.1
 
-#test
-# lulz
+# Эксплуатация
+
+
+buildHiddenMenu({
+    wrapperList: $('.wrapper-list'),
+    hiddenMenu: $('<ul class="hidden-list"/>'),
+    triggerMenu: $('.trigger-menu'),
+    navigationMenu: $('.navigation')
+});
