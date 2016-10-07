@@ -1,1 +1,70 @@
+.navigation {
+    position: relative;
+}
 
+.hidden-list,
+.wrapper-list {
+    position: relative;
+    margin: 10px;
+    padding: 10px 64px 10px 10px;
+    list-style-type: none;   
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    overflow: hidden;
+    height: 32px;
+}
+
+.hidden-list,
+.wrapper-list li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.hidden-list,
+.wrapper-list li:last-child {
+    margin-right: 0;
+}
+
+.hidden-list,
+.wrapper-list li a {
+    display: block;
+    padding: 6px 12px;
+    font-size: 18px;
+    font-family: sans-serif;    
+}
+
+.hidden-list,
+.wrapper-list li a:hover {
+    background-color: #f1f1f1;
+}
+
+.hidden-list {
+    height: auto;
+    overflow: auto;
+}
+
+.hidden-list li {
+    display: block;
+}
+
+.trigger-holder {
+    position: absolute;
+    z-index: 10;
+    top: 15px;
+    right: 15px;
+    height: 100%;
+}
+
+.is-overflowed {
+    display: none;
+}
+
+.hidden-list {
+    position: absolute;
+    z-index: 15;
+    top: 100%;
+    right: 0;
+    width: auto;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+}
