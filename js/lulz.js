@@ -24,12 +24,12 @@ $(function() {
                 $(elements.triggerMenu).css({'display' : 'block'});
             }
 
-            elements.triggerMenu.on('click', function(event) {
-                event.preventDefault();
-                elements.hiddenMenu.toggle();
-            });
-
         }).trigger('resize');
+        
+        elements.triggerMenu.on('click', function(event) {
+            event.preventDefault();
+            elements.hiddenMenu.toggle();
+        });
     }
 
     buildHiddenMenu({
