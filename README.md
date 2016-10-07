@@ -4,3 +4,11 @@
 #
 # Эксплуатация
 
+```javascript
+    buildHiddenMenu({
+        wrapperList: $('.wrapper-list'),
+        hiddenMenu: $('<ul class="hidden-list"/>'),
+        triggerMenu: $('.trigger-menu'),
+        navigationMenu: $('.navigation')
+    });
+```
