@@ -68,3 +68,11 @@
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.26);
 }
+
+.trigger-menu {
+    display: inline-block;
+    vertical-align: top;
+    border: none;
+    padding: 5px;
+    margin-top: -8px
+}
