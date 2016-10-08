@@ -10,7 +10,7 @@ $(function() {
 
             elements.wrapperList
                 .find('li').filter(function(index, element) {
-                    return $(element).position().top > 20;
+                    return $(element).position().top > elements.topPosition;
                 })
                 .addClass('is-overflowed')
                 .clone()
@@ -36,7 +36,8 @@ $(function() {
         wrapperList: $('.wrapper-list'),
         hiddenMenu: $('<ul class="hidden-list"/>'),
         triggerMenu: $('.trigger-menu'),
-        navigationMenu: $('.navigation')
+        navigationMenu: $('.navigation'),
+        topPosition: 20
     });
     
 });
