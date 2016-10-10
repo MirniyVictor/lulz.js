@@ -10,6 +10,6 @@
         hiddenMenu: $('<ul class="hidden-list"/>'), //класс скрывающеёся навигации
         triggerMenu: $('.trigger-menu'), //класс кнопки
         navigationMenu: $('.navigation'), //обёртка навигации
-        topPosition: 20
+        topPosition: 20 //позиции пункта меню
     });
 ```
