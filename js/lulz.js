@@ -31,6 +31,7 @@ $(function() {
             elements.hiddenMenu.toggle();
         });
     }
+    
 
     buildHiddenMenu({
         wrapperList: $('.wrapper-list'),
